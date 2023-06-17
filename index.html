@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker-Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modalHeader"> 
+            <span class="close">&times;</span>
+            <h1>A little about me...</h1>
+        </div>
+        <div class="modalBody">
+            <p>I'm a soon-to-be Software Developer using "We Can Code It" as a way to further my skill set and experience in the development world.</p>
+            <p>My personal focus and intrigue revolves around designing.</p>
+            <p> I am an artist, in my spare time, so being able to use coding as another creative outlet in something I look forward to every, single, time I open up a script.</p>
+        </div>
+        <div class="modalLinks">
+            <h1> More from me...</h1>
+            <ul>
+                <li><a href="https://github.com/DevSpe64">GitHub</a></li>
+                <li><a href="https://devspe64.github.io/">Portfolio</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+    <header class="header">
+        <nav>
+            <ul>
+                <li id="fake-link"><a href="#fake-link">About</a></li>
+                <li id="inspiration"><a href="https://orteil.dashnet.org/cookieclicker/" target="_blank">Inspiration</a>
+                </li>
+                <li id="lore"><a href="#lore">Lore</a>
+            </ul>
+        </nav>
+        <div class="lore-info">
+            <p >Welcome aboard the Dough Operations and Nut Oversee Traversable (D.O.N.O.T.)
+            </p>
+            <p>
+                Our primary objective here, on this fine vessel for inter-galactic pastry making, is to obtain the universally perfect ratio of "dough" and "nut" so that we all may be enlightened.
+            </p>
+            <p>
+                "How will we be enlightened by such a simple, and nutrition-less treat?" you may ask.
+            </p>
+            <p>
+                Well in my opinion...
+            </p>
+            <p class="error">
+                {OPINION REDACTED}                 IN VIOLATION OF D.O.N.O.T. CODE #254321 (DO_NOT EXPRESS OPINIONS, IDEAS, WORDS, BODILY MOTIONS, OR ANY OTHER HUMAN APPENDAGES AND OR FUNCTIONS IN A WAY THAT DISPLEASES THE /Classified)
+            </p>
+        </div>
+    </header>
+    <main class="website">
+        <h1>D.O.N.O.T.</h1>
+    <header class="dc-block">
+        <div class="clicker" >
+            <button class="donutMaker" type="img" ><img src="https://i.ibb.co/sVDSd7h/fixed-donut.png"></button>
+        </div>
+        <h1>Doughnut Count</h1>
+        <div class="dough-display">0</div>
+    </header>
+    <header class = ac-count-block>
+        <h1>Auto Clicker Amount</h1>
+        <div class="ac-display">0</div>
+        <div class="ac-button">
+            <button id="ac-click">Purchase Auto-Clicker</button>
+        </div>
+    </header>
+    <header class="ac-cost-block">
+        <h1>Next Auto Clicker at: </h1>
+        <div class="ac-cost">100</div>
+    </header>
+    <div class="exit-button">
+        <button onclick="resetGame()" class="exit">Reset</button>
+    </div>
+    </main>
+    <script src="script.js"></script> 
+    <script src="modal.js"></script>
+</body>
+</html>
